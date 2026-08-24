@@ -4,11 +4,11 @@
     {
       "background": {"type": "solid", "color": "#FFFFFF"},
       "elements": [
-        {"type": "text", "x": 0.35, "y": 0.12, "w": 12.6, "h": 0.55, "size": 24, "color": "#15375F", "bold": true, "content": "Data Coverage Logic and Incremental Synchronization"},
+        {"type": "text", "x": 0.35, "y": 0.12, "w": 12.6, "h": 0.55, "size": 24, "color": "#15375F", "bold": true, "content": "数据覆盖与增量同步（示例 X）"},
 
         {"type": "box", "x": 0.35, "y": 0.78, "w": 4.05, "h": 6.45, "fill": "#F0F5FB", "line": "#AEB8C6", "line_w": 1.0, "radius": null},
         {"type": "box", "x": 0.35, "y": 0.78, "w": 4.05, "h": 0.42, "fill": "#2F6FB2", "line": "none"},
-        {"type": "text", "x": 0.35, "y": 0.78, "w": 4.05, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "Dealer System"},
+        {"type": "text", "x": 0.35, "y": 0.78, "w": 4.05, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "系统 X"},
 
         {"type": "box", "x": 0.55, "y": 1.35, "w": 3.62, "h": 2.05, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 1.0, "radius": null},
         {"type": "text", "x": 0.60, "y": 1.42, "w": 3.5, "h": 0.32, "size": 11.5, "color": "#15375F", "bold": true, "content": "First Upload"},
@@ -28,7 +28,7 @@
 
         {"type": "box", "x": 4.50, "y": 0.78, "w": 3.85, "h": 6.45, "fill": "#F0F5FB", "line": "#AEB8C6", "line_w": 1.0, "radius": null},
         {"type": "box", "x": 4.50, "y": 0.78, "w": 3.85, "h": 0.42, "fill": "#2F6FB2", "line": "none"},
-        {"type": "text", "x": 4.50, "y": 0.78, "w": 3.85, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "Local System Processing"},
+        {"type": "text", "x": 4.50, "y": 0.78, "w": 3.85, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "系统 Y · 本地处理"},
         {"type": "box", "x": 4.72, "y": 1.20, "w": 1.15, "h": 0.85, "fill": "#E9F1FA", "line": "#2F6FB2", "line_w": 0.9, "radius": null, "content": [["File_v1.txt", 9.5, "#2F6FB2", true]]},
         {"type": "connector", "x1": 5.90, "y1": 2.20, "x2": 5.90, "y2": 2.55, "color": "#15375F", "w": 2.5, "arrow": true},
         {"type": "table", "x": 4.72, "y": 2.62, "w": 3.42, "h": 1.80, "header": ["Record ID", "Operation"], "rows": [["A'", "UPDATE"], ["D", "INSERT"], ["B", "DELETE"], ["C", "DELETE"]], "rowfills": [["#FFF0E2", "#FFF0E2"], ["#E4F4E9", "#E4F4E9"], ["#FBE9E9", "#FBE9E9"], ["#FBE9E9", "#FBE9E9"]], "header_fill": "#15375F"},
@@ -42,7 +42,7 @@
 
         {"type": "box", "x": 8.45, "y": 0.78, "w": 4.60, "h": 6.45, "fill": "#F0F5FB", "line": "#AEB8C6", "line_w": 1.0, "radius": null},
         {"type": "box", "x": 8.45, "y": 0.78, "w": 4.60, "h": 0.42, "fill": "#2F6FB2", "line": "none"},
-        {"type": "text", "x": 8.45, "y": 0.78, "w": 4.60, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "Global System - API Pull (Every 4 hours)"},
+        {"type": "text", "x": 8.45, "y": 0.78, "w": 4.60, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "系统 Y · 定时同步"},
         {"type": "box", "x": 8.70, "y": 1.20, "w": 1.45, "h": 0.55, "fill": "#E9F1FA", "line": "#2F6FB2", "line_w": 0.9, "radius": null, "content": [["API Data Pull Request", 9, "#2F6FB2", true]]},
         {"type": "text", "x": 10.30, "y": 1.22, "w": 2.5, "h": 0.55, "size": 9.5, "color": "#697386", "content": "Clock: Timestamp\n2024-07-24T18:30:00Z"},
 

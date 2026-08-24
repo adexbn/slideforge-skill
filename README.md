@@ -55,8 +55,8 @@ slideforge/
 │   ├── design-system.md      # DESIGN 模式设计系统
 │   └── integrity-contract.md # 来源追溯/合成披露/强调开关
 └── examples/
-    ├── design_jv_plan.json   # DESIGN 示例（JV 数据贯通单页）
-    └── recreate_data_sync.json  # RECREATE 示例（Data Coverage）
+    ├── design_jv_plan.json   # DESIGN 示例（跨品牌数据打通单页，通用占位）
+    └── recreate_data_sync.json  # RECREATE 示例（数据覆盖与增量同步，通用占位）
 ```
 
 ## 安装到各 agent（同一份 SKILL.md 通用）

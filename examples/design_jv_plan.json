@@ -5,8 +5,8 @@
       "background": {"type": "gradient", "color1": "#FBFCFF", "color2": "#EDF3FA", "angle": 90},
       "elements": [
         {"type": "box", "x": 0.6, "y": 0.5, "w": 0.09, "h": 0.72, "fill": "#E07A2E", "line": "none"},
-        {"type": "text", "x": 0.85, "y": 0.46, "w": 11.6, "h": 0.4, "size": 13, "color": "#0F8B8D", "bold": true, "content": "JV 集团 · 数据贯通方案"},
-        {"type": "text", "x": 0.85, "y": 0.80, "w": 12.0, "h": 0.55, "size": 30, "color": "#0E2A4A", "bold": true, "content": "一套系统，把复杂 JV 旗下各品牌的数据打通"},
+        {"type": "text", "x": 0.85, "y": 0.46, "w": 11.6, "h": 0.4, "size": 13, "color": "#0F8B8D", "bold": true, "content": "集团数据 · 打通方案"},
+        {"type": "text", "x": 0.85, "y": 0.80, "w": 12.0, "h": 0.55, "size": 30, "color": "#0E2A4A", "bold": true, "content": "一套系统，把集团旗下各品牌的数据打通"},
         {"type": "text", "x": 0.85, "y": 1.30, "w": 12.0, "h": 0.5, "size": 14, "color": "#5F6B7A", "bold": false, "content": "从「各品牌各管一套」到「统一数据核心 + 四步走」，让数据可比、可连、可信、可用。"},
 
         {"type": "box", "x": 0.6, "y": 1.92, "w": 12.13, "h": 1.72, "fill": "#F7FAFD", "line": "#C7D2DE", "line_w": 0.8, "radius": 0.06},
