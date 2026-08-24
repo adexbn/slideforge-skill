@@ -1,0 +1,8 @@
+# generated output (regenerate with slideforge_build.py / render_check.py)
+examples/out/
+preview/
+*.png
+*.pptx
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,70 @@
+{
+  "canvas": "16:9",
+  "slides": [
+    {
+      "background": {"type": "gradient", "color1": "#FBFCFF", "color2": "#EDF3FA", "angle": 90},
+      "elements": [
+        {"type": "box", "x": 0.6, "y": 0.5, "w": 0.09, "h": 0.72, "fill": "#E07A2E", "line": "none"},
+        {"type": "text", "x": 0.85, "y": 0.46, "w": 11.6, "h": 0.4, "size": 13, "color": "#0F8B8D", "bold": true, "content": "JV 集团 · 数据贯通方案"},
+        {"type": "text", "x": 0.85, "y": 0.80, "w": 12.0, "h": 0.55, "size": 30, "color": "#0E2A4A", "bold": true, "content": "一套系统，把复杂 JV 旗下各品牌的数据打通"},
+        {"type": "text", "x": 0.85, "y": 1.30, "w": 12.0, "h": 0.5, "size": 14, "color": "#5F6B7A", "bold": false, "content": "从「各品牌各管一套」到「统一数据核心 + 四步走」，让数据可比、可连、可信、可用。"},
+
+        {"type": "box", "x": 0.6, "y": 1.92, "w": 12.13, "h": 1.72, "fill": "#F7FAFD", "line": "#C7D2DE", "line_w": 0.8, "radius": 0.06},
+        {"type": "text", "x": 0.9, "y": 2.02, "w": 2.2, "h": 0.3, "size": 11, "color": "#5F6B7A", "bold": true, "content": "各品牌 · 各自一套数据"},
+        {"type": "box", "x": 0.95, "y": 2.44, "w": 1.55, "h": 1.05, "fill": "#FFFFFF", "line": "#1F5EB0", "line_w": 1.2, "radius": 0.18},
+        {"type": "box", "x": 0.95, "y": 2.44, "w": 1.55, "h": 0.07, "fill": "#1F5EB0", "line": "none"},
+        {"type": "text", "x": 1.07, "y": 2.96, "w": 1.31, "h": 0.4, "size": 10.5, "color": "#142030", "bold": true, "align": "center", "content": "品牌 A"},
+        {"type": "box", "x": 2.64, "y": 2.44, "w": 1.55, "h": 1.05, "fill": "#FFFFFF", "line": "#0F8B8D", "line_w": 1.2, "radius": 0.18},
+        {"type": "box", "x": 2.64, "y": 2.44, "w": 1.55, "h": 0.07, "fill": "#0F8B8D", "line": "none"},
+        {"type": "text", "x": 2.76, "y": 2.96, "w": 1.31, "h": 0.4, "size": 10.5, "color": "#142030", "bold": true, "align": "center", "content": "品牌 B"},
+        {"type": "box", "x": 4.33, "y": 2.44, "w": 1.55, "h": 1.05, "fill": "#FFFFFF", "line": "#6B4EC9", "line_w": 1.2, "radius": 0.18},
+        {"type": "box", "x": 4.33, "y": 2.44, "w": 1.55, "h": 0.07, "fill": "#6B4EC9", "line": "none"},
+        {"type": "text", "x": 4.45, "y": 2.96, "w": 1.31, "h": 0.4, "size": 10.5, "color": "#142030", "bold": true, "align": "center", "content": "品牌 C"},
+        {"type": "box", "x": 6.02, "y": 2.44, "w": 1.55, "h": 1.05, "fill": "#FFFFFF", "line": "#E07A2E", "line_w": 1.2, "radius": 0.18},
+        {"type": "box", "x": 6.02, "y": 2.44, "w": 1.55, "h": 0.07, "fill": "#E07A2E", "line": "none"},
+        {"type": "text", "x": 6.14, "y": 2.96, "w": 1.31, "h": 0.4, "size": 10.5, "color": "#142030", "bold": true, "align": "center", "content": "品牌 D"},
+        {"type": "connector", "x1": 7.57, "y1": 2.97, "x2": 8.03, "y2": 2.96, "color": "#BCCADC", "w": 1.6, "arrow": true},
+        {"type": "connector", "x1": 7.57, "y1": 3.0, "x2": 8.03, "y2": 2.96, "color": "#BCCADC", "w": 1.6, "arrow": true},
+        {"type": "box", "x": 8.15, "y": 2.34, "w": 4.0, "h": 1.24, "fill": {"type": "gradient", "color1": "#1F5EB0", "color2": "#0E2A4A", "angle": 90}, "line": "none", "radius": 0.14,
+         "content": [["One Data · 统一数据核心", 16, "#FFFFFF", true], ["一套系统 · 一套口径 · 一套治理", 11, "#DCE8F6", false]]},
+
+        {"type": "text", "x": 0.6, "y": 3.86, "w": 6.0, "h": 0.4, "size": 15, "color": "#0E2A4A", "bold": true, "content": "怎么走：四步，每步解决一个关键挑战"},
+        {"type": "box", "x": 0.6, "y": 4.28, "w": 2.86, "h": 2.5, "fill": "#FFFFFF", "line": "#DCE4EE", "line_w": 1.0, "radius": 0.07},
+        {"type": "box", "x": 0.6, "y": 4.28, "w": 2.86, "h": 0.09, "fill": "#1F5EB0", "line": "none"},
+        {"type": "box", "x": 0.76, "y": 4.46, "w": 0.42, "h": 0.42, "fill": "#FFFFFF", "line": "#1F5EB0", "line_w": 1.2, "shape": "oval"},
+        {"type": "text", "x": 0.76, "y": 4.52, "w": 0.42, "h": 0.3, "size": 12, "color": "#1F5EB0", "bold": true, "align": "center", "content": "01"},
+        {"type": "text", "x": 0.76, "y": 4.98, "w": 2.54, "h": 0.32, "size": 14, "color": "#142030", "bold": true, "content": "汇聚  Consolidate"},
+        {"type": "text", "x": 0.76, "y": 5.30, "w": 2.54, "h": 0.92, "size": 10.5, "color": "#142030", "bold": true, "content": "各品牌数据汇入统一数据层"},
+        {"type": "box", "x": 0.76, "y": 6.20, "w": 2.54, "h": 0.62, "fill": "#F4F7FB", "line": "#DCE4EE", "line_w": 0.8, "radius": 0.12},
+        {"type": "text", "x": 0.84, "y": 6.22, "w": 2.38, "h": 0.58, "size": 9.5, "color": "#1F5EB0", "bold": true, "content": "为什么：先有「唯一事实」，才能谈打通"},
+        {"type": "text", "x": 0.76, "y": 6.90, "w": 2.54, "h": 0.26, "size": 9.5, "color": "#5F6B7A", "bold": false, "content": "解决：数据孤岛 · 口径各异"},
+
+        {"type": "box", "x": 3.68, "y": 4.28, "w": 2.86, "h": 2.5, "fill": "#FFFFFF", "line": "#DCE4EE", "line_w": 1.0, "radius": 0.07},
+        {"type": "box", "x": 3.68, "y": 4.28, "w": 2.86, "h": 0.09, "fill": "#0F8B8D", "line": "none"},
+        {"type": "text", "x": 3.84, "y": 4.98, "w": 2.54, "h": 0.32, "size": 14, "color": "#142030", "bold": true, "content": "统一  Standardize"},
+        {"type": "text", "x": 3.84, "y": 5.30, "w": 2.54, "h": 0.92, "size": 10.5, "color": "#142030", "bold": true, "content": "统一数据模型 + 主数据口径"},
+        {"type": "box", "x": 3.84, "y": 6.20, "w": 2.54, "h": 0.62, "fill": "#F4F7FB", "line": "#DCE4EE", "line_w": 0.8, "radius": 0.12},
+        {"type": "text", "x": 3.92, "y": 6.22, "w": 2.38, "h": 0.58, "size": 9.5, "color": "#0F8B8D", "bold": true, "content": "为什么：同名同义，跨品牌才能横向比较"},
+        {"type": "text", "x": 3.84, "y": 6.90, "w": 2.54, "h": 0.26, "size": 9.5, "color": "#5F6B7A", "bold": false, "content": "解决：口径与编码不一致"},
+
+        {"type": "box", "x": 6.76, "y": 4.28, "w": 2.86, "h": 2.5, "fill": "#FFFFFF", "line": "#DCE4EE", "line_w": 1.0, "radius": 0.07},
+        {"type": "box", "x": 6.76, "y": 4.28, "w": 2.86, "h": 0.09, "fill": "#6B4EC9", "line": "none"},
+        {"type": "text", "x": 6.92, "y": 4.98, "w": 2.54, "h": 0.32, "size": 14, "color": "#142030", "bold": true, "content": "打通  Connect"},
+        {"type": "text", "x": 6.92, "y": 5.30, "w": 2.54, "h": 0.92, "size": 10.5, "color": "#142030", "bold": true, "content": "统一服务层实时同步各品牌系统"},
+        {"type": "box", "x": 6.92, "y": 6.20, "w": 2.54, "h": 0.62, "fill": "#F4F7FB", "line": "#DCE4EE", "line_w": 0.8, "radius": 0.12},
+        {"type": "text", "x": 7.00, "y": 6.22, "w": 2.38, "h": 0.58, "size": 9.5, "color": "#6B4EC9", "bold": true, "content": "为什么：让「一套系统」成为数据枢纽"},
+        {"type": "text", "x": 6.92, "y": 6.90, "w": 2.54, "h": 0.26, "size": 9.5, "color": "#5F6B7A", "bold": false, "content": "解决：系统异构 · 断点不同步"},
+
+        {"type": "box", "x": 9.84, "y": 4.28, "w": 2.86, "h": 2.5, "fill": "#FFFFFF", "line": "#DCE4EE", "line_w": 1.0, "radius": 0.07},
+        {"type": "box", "x": 9.84, "y": 4.28, "w": 2.86, "h": 0.09, "fill": "#E07A2E", "line": "none"},
+        {"type": "text", "x": 10.00, "y": 4.98, "w": 2.54, "h": 0.32, "size": 14, "color": "#142030", "bold": true, "content": "治理并激活  Govern & Activate"},
+        {"type": "text", "x": 10.00, "y": 5.30, "w": 2.54, "h": 0.92, "size": 10.5, "color": "#142030", "bold": true, "content": "数据治理 + 权限 + 跨品牌洞察/单一视图"},
+        {"type": "box", "x": 10.00, "y": 6.20, "w": 2.54, "h": 0.62, "fill": "#F4F7FB", "line": "#DCE4EE", "line_w": 0.8, "radius": 0.12},
+        {"type": "text", "x": 10.08, "y": 6.22, "w": 2.38, "h": 0.58, "size": 9.5, "color": "#E07A2E", "bold": true, "content": "为什么：数据可信，决策才有价值"},
+        {"type": "text", "x": 10.00, "y": 6.90, "w": 2.54, "h": 0.26, "size": 9.5, "color": "#5F6B7A", "bold": false, "content": "解决：归属不清 · 合规 · 变现"}
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,67 @@
+{
+  "canvas": "16:9",
+  "slides": [
+    {
+      "background": {"type": "solid", "color": "#FFFFFF"},
+      "elements": [
+        {"type": "text", "x": 0.35, "y": 0.12, "w": 12.6, "h": 0.55, "size": 24, "color": "#15375F", "bold": true, "content": "Data Coverage Logic and Incremental Synchronization"},
+
+        {"type": "box", "x": 0.35, "y": 0.78, "w": 4.05, "h": 6.45, "fill": "#F0F5FB", "line": "#AEB8C6", "line_w": 1.0, "radius": null},
+        {"type": "box", "x": 0.35, "y": 0.78, "w": 4.05, "h": 0.42, "fill": "#2F6FB2", "line": "none"},
+        {"type": "text", "x": 0.35, "y": 0.78, "w": 4.05, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "Dealer System"},
+
+        {"type": "box", "x": 0.55, "y": 1.35, "w": 3.62, "h": 2.05, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 1.0, "radius": null},
+        {"type": "text", "x": 0.60, "y": 1.42, "w": 3.5, "h": 0.32, "size": 11.5, "color": "#15375F", "bold": true, "content": "First Upload"},
+        {"type": "box", "x": 0.72, "y": 1.80, "w": 0.95, "h": 1.30, "fill": "#E9F1FA", "line": "#2F6FB2", "line_w": 0.9, "radius": null, "content": [["File", 9, "#2F6FB2", true], ["_v1.txt", 8, "#697386", false]]},
+        {"type": "box", "x": 1.85, "y": 1.80, "w": 2.15, "h": 0.34, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 0.8, "radius": null, "content": [["Record A", 10.5, "#172033", false]]},
+        {"type": "box", "x": 1.85, "y": 2.22, "w": 2.15, "h": 0.34, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 0.8, "radius": null, "content": [["Record B", 10.5, "#172033", false]]},
+        {"type": "box", "x": 1.85, "y": 2.64, "w": 2.15, "h": 0.34, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 0.8, "radius": null, "content": [["Record C", 10.5, "#172033", false]]},
+        {"type": "connector", "x1": 2.35, "y1": 3.42, "x2": 2.35, "y2": 3.72, "color": "#15375F", "w": 2.5, "arrow": true},
+
+        {"type": "box", "x": 0.55, "y": 3.76, "w": 3.62, "h": 2.15, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 1.0, "radius": null},
+        {"type": "text", "x": 0.60, "y": 3.82, "w": 3.5, "h": 0.5, "size": 11.5, "color": "#15375F", "bold": true, "content": "Second Upload\n(Same-name Overwrite)"},
+        {"type": "box", "x": 0.72, "y": 4.50, "w": 0.95, "h": 1.20, "fill": "#E9F1FA", "line": "#2F6FB2", "line_w": 0.9, "radius": null, "content": [["File", 9, "#2F6FB2", true], ["_v1.txt", 8, "#697386", false]]},
+        {"type": "box", "x": 1.85, "y": 4.52, "w": 2.15, "h": 0.34, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 0.8, "radius": null, "content": [["Record A'", 10.5, "#172033", false]]},
+        {"type": "box", "x": 1.85, "y": 4.94, "w": 2.15, "h": 0.34, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 0.8, "radius": null, "content": [["Record D", 10.5, "#172033", false]]},
+        {"type": "text", "x": 1.85, "y": 5.40, "w": 2.15, "h": 0.4, "size": 8.5, "color": "#697386", "content": "A' = Modified, A, D = New"},
+        {"type": "text", "x": 0.45, "y": 6.30, "w": 3.9, "h": 0.4, "size": 8.5, "color": "#697386", "content": "Same-name file overwrite -> old content becomes invalid"},
+
+        {"type": "box", "x": 4.50, "y": 0.78, "w": 3.85, "h": 6.45, "fill": "#F0F5FB", "line": "#AEB8C6", "line_w": 1.0, "radius": null},
+        {"type": "box", "x": 4.50, "y": 0.78, "w": 3.85, "h": 0.42, "fill": "#2F6FB2", "line": "none"},
+        {"type": "text", "x": 4.50, "y": 0.78, "w": 3.85, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "Local System Processing"},
+        {"type": "box", "x": 4.72, "y": 1.20, "w": 1.15, "h": 0.85, "fill": "#E9F1FA", "line": "#2F6FB2", "line_w": 0.9, "radius": null, "content": [["File_v1.txt", 9.5, "#2F6FB2", true]]},
+        {"type": "connector", "x1": 5.90, "y1": 2.20, "x2": 5.90, "y2": 2.55, "color": "#15375F", "w": 2.5, "arrow": true},
+        {"type": "table", "x": 4.72, "y": 2.62, "w": 3.42, "h": 1.80, "header": ["Record ID", "Operation"], "rows": [["A'", "UPDATE"], ["D", "INSERT"], ["B", "DELETE"], ["C", "DELETE"]], "rowfills": [["#FFF0E2", "#FFF0E2"], ["#E4F4E9", "#E4F4E9"], ["#FBE9E9", "#FBE9E9"], ["#FBE9E9", "#FBE9E9"]], "header_fill": "#15375F"},
+
+        {"type": "box", "x": 4.72, "y": 4.56, "w": 0.95, "h": 0.32, "fill": "#15375F", "line": "none", "content": [["Color Key", 9, "#FFFFFF", true]]},
+        {"type": "box", "x": 4.72, "y": 4.98, "w": 1.05, "h": 0.32, "fill": "#E4F4E9", "line": "none", "content": [["INSERT", 8.5, "#2E8B57", true]]},
+        {"type": "box", "x": 5.82, "y": 4.98, "w": 1.15, "h": 0.32, "fill": "#FFF0E2", "line": "none", "content": [["UPDATE", 8.5, "#E07A2E", true]]},
+        {"type": "box", "x": 7.02, "y": 4.98, "w": 1.15, "h": 0.32, "fill": "#FBE9E9", "line": "none", "content": [["DELETE", 8.5, "#DC5B5B", true]]},
+
+        {"type": "box", "x": 4.72, "y": 5.44, "w": 3.42, "h": 1.28, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 1.0, "radius": null, "content": [["Key Points:", 10, "#15375F", true], ["- Same-name overwrite -> old records invalid", 8.5, "#172033", false], ["- UPDATE marks modified (A' this case)", 8.5, "#172033", false], ["- DELETE marks obsolete (B, C)", 8.5, "#172033", false], ["- Global syncs by operation field", 8.5, "#172033", false]], "align": "left", "anchor": "top"},
+
+        {"type": "box", "x": 8.45, "y": 0.78, "w": 4.60, "h": 6.45, "fill": "#F0F5FB", "line": "#AEB8C6", "line_w": 1.0, "radius": null},
+        {"type": "box", "x": 8.45, "y": 0.78, "w": 4.60, "h": 0.42, "fill": "#2F6FB2", "line": "none"},
+        {"type": "text", "x": 8.45, "y": 0.78, "w": 4.60, "h": 0.42, "size": 13, "color": "#FFFFFF", "bold": true, "align": "center", "anchor": "middle", "content": "Global System - API Pull (Every 4 hours)"},
+        {"type": "box", "x": 8.70, "y": 1.20, "w": 1.45, "h": 0.55, "fill": "#E9F1FA", "line": "#2F6FB2", "line_w": 0.9, "radius": null, "content": [["API Data Pull Request", 9, "#2F6FB2", true]]},
+        {"type": "text", "x": 10.30, "y": 1.22, "w": 2.5, "h": 0.55, "size": 9.5, "color": "#697386", "content": "Clock: Timestamp\n2024-07-24T18:30:00Z"},
+
+        {"type": "box", "x": 8.70, "y": 1.95, "w": 4.10, "h": 2.60, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 1.0, "radius": null, "content": [["API JSON Response Sample", 10.5, "#15375F", true]], "align": "left", "anchor": "top"},
+        {"type": "text", "x": 8.82, "y": 2.38, "w": 3.9, "h": 2.1, "size": 8, "color": "#697386", "content": "{  \"records\": [\n    { \"id\": \"A'\", \"operation\": \"UPDATE\", \"sales_qty\": 5 },\n    { \"id\": \"D\", \"operation\": \"INSERT\", \"sales_qty\": 3 },\n    { \"id\": \"B\", \"operation\": \"DELETE\" },\n    { \"id\": \"C\", \"operation\": \"DELETE\" }\n  ]}"},
+
+        {"type": "box", "x": 8.70, "y": 4.72, "w": 1.70, "h": 0.48, "fill": "#15375F", "line": "none", "content": [["Execute Operations", 10, "#FFFFFF", true]]},
+        {"type": "box", "x": 8.70, "y": 5.38, "w": 1.32, "h": 0.85, "fill": "#E4F4E9", "line": "none", "radius": 0.1, "content": [["INSERT / UPDATE\n(A', D)", 9, "#2E8B57", true]]},
+        {"type": "box", "x": 10.12, "y": 5.38, "w": 1.24, "h": 0.85, "fill": "#FBE9E9", "line": "none", "radius": 0.1, "content": [["DELETE\n(B, C)", 9, "#DC5B5B", true]]},
+        {"type": "box", "x": 11.44, "y": 5.38, "w": 1.40, "h": 0.85, "fill": "#E9F1FA", "line": "none", "radius": 0.1, "content": [["Update Global\nDatabase State", 9, "#2F6FB2", true]]},
+        {"type": "connector", "x1": 9.30, "y1": 5.22, "x2": 9.36, "y2": 5.36, "color": "#2E8B57", "w": 2.2, "arrow": true},
+        {"type": "connector", "x1": 9.85, "y1": 5.22, "x2": 10.74, "y2": 5.36, "color": "#DC5B5B", "w": 2.2, "arrow": true},
+        {"type": "connector", "x1": 9.85, "y1": 5.22, "x2": 12.14, "y2": 5.36, "color": "#2F6FB2", "w": 2.2, "arrow": true},
+
+        {"type": "box", "x": 8.70, "y": 6.48, "w": 4.10, "h": 0.78, "fill": "#FFFFFF", "line": "#D7DEE8", "line_w": 1.0, "radius": null, "content": [["Key Points:  Global system processes:  INSERT (create new),  UPDATE (modify existing),  DELETE (remove obsolete)", 8.5, "#172033", false]], "align": "left", "anchor": "top"},
+
+        {"type": "connector", "x1": 4.17, "y1": 2.30, "x2": 4.50, "y2": 2.30, "color": "#15375F", "w": 3.0, "arrow": true},
+        {"type": "connector", "x1": 8.16, "y1": 2.40, "x2": 8.45, "y2": 2.40, "color": "#2F6FB2", "w": 3.0, "arrow": true}
+      ]
+    }
+  ]
+}
